@@ -89,9 +89,9 @@
 	     link => '',
 	     desc => 'View and compare chromosomes from various organisms.',
 	     menu => [
-		      { name => 'Cassava 2011',
+		      { name => 'Cacao Genetic Map',
 		        link => '/cview/map.pl?map_id=1',
-			desc => 'Cassava Genetic Map (Rabbi et al, 2011)',
+			desc => 'Cacao Genetic Map',
 		      },
 		     ]
 		 
@@ -99,20 +99,26 @@
 	 {
 	     name => 'genomes',
 	     link => '',
-	     desc => 'About the cassava genome sequencing projects and related initiatives.',
+	     desc => 'Cacao Genome Resources',
 	     menu => [
-		 {
-		     name => 'Cassava genome browser at JGI',
-		     link => 'http://www.phytozome.net/cgi-bin/gbrowse/cassava/',
-		     desc =>
-			 'The cassava genome, sequenced by the Joint Genome Initiative',
-		 },
-		 {
-		     name => 'Manage cassava genome projects',
-		     link => '/organism/5/view',
-		     desc => '',
-		 },
-		 ],
+		      {
+		       name => 'Cacao genome - CIRAD',
+		       link => 'http://cacao.sgn.cornell.edu/bin/gb2/gbrowse/cacao1/',
+		       desc => 'CIRAD Cocoa Assembly',
+		      },
+		      {
+		       name => 'Other sites',
+		       link => '',
+		       desc => 'Cacao genome browser',
+		       },
+
+		      {
+		       name => 'Cacao genome browser at Cacao Genome Database',
+		       link => 'http://www.cacaogenomedb.org/tools-anon/gbrowse',
+		       desc =>
+		       'The cacao genome on CGD, requires login.',
+		      },
+		     ],
 	 },
 	 {
 	     name => 'tools',
@@ -120,15 +126,15 @@
 	     desc => 'Tools for biologists.',
 	     menu => [
 
-		      { name => 'Breeder Tools' },
-		      { name=> 'Breeder Home',
-			link=> '/breeders/home',
-			desc=> 'Access breeder functionalities from the breeders homepage. Requires login.'
-		      },
-		      { name => 'Barcode Tools',
-			link => '/barcode/',
-			desc => 'Tools to create and manage barcodes.',
-},
+# 		      { name => 'Breeder Tools' },
+# 		      { name=> 'Breeder Home',
+# 			link=> '/breeders/home',
+# 			desc=> 'Access breeder functionalities from the breeders homepage. Requires login.'
+# 		      },
+# 		      { name => 'Barcode Tools',
+# 			link => '/barcode/',
+# 			desc => 'Tools to create and manage barcodes.',
+# },
 			
 		      
 
