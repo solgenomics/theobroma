@@ -5,7 +5,7 @@ $static_content_path => undef
 
 <table cellpadding="0">
 
-<tr><td colspan="2">
+<tr><td colspan="3">
 <br />
 <br />
 <center>
@@ -15,7 +15,7 @@ $static_content_path => undef
 </center>
 
 <ul>
-<li><a href="/blast">Access old BLAST system</a></li>
+<li><a href="/bin">Access old BLAST system</a></li>
 </ul>
 
 </td></tr>
@@ -23,33 +23,10 @@ $static_content_path => undef
 <tr>
 <td colspan="2">
 
-<& /util/include_file.mas, file=>  $static_content_path."/general_info.txt" &>
+
 
 </td>
 </tr>
-
-<tr>
-
-<td width="300">
-<div class="boxbgcolor1" style="margin:0px;">
-<div class="boxheading">Community</div>
-<div class="boxcontent">
-<a href="/forum/topics.pl">CassavaBase Forum</a><br />
-<a href="http://cassavabase.wikispaces.com">Cassava Wiki</a><br />
-<a href="http://rubisco.sgn.cornell.edu/cgi-bin/mailman/listinfo/cassava-discussion">Cassava Discussion Mailing List</a><br />
-</div>
-</div>
-
-
-<& homepage/news.mas &><br />
-
-
-</td><td width="300">
-<& homepage/events.mas &>
-<& homepage/publication_of_the_week.mas &><br />
-
-
-</td></tr>
 
 
 </table>
