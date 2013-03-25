@@ -90,7 +90,7 @@
 	     desc => 'View and compare chromosomes from various organisms.',
 	     menu => [
 		      { name => 'Cacao Genetic Map',
-		        link => '/cview/map.pl?map_id=1',
+		        link => '/cview/map.pl?map_id=2',
 			desc => 'Cacao Genetic Map',
 		      },
 		     ]
