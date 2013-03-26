@@ -93,6 +93,11 @@
 		        link => '/cview/map.pl?map_id=2',
 			desc => 'Cacao Genetic Map',
 		      },
+      		      { name => 'Cacao Sequence Map',
+			link => '/cview/map.pl?map_id=3',
+			desc => 'Cacao Sequence Map',
+		      },
+
 		     ]
 		 
 	 },
