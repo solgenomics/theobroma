@@ -81,7 +81,7 @@
       height: 200;
       modal: true;
   });
-  }
+  });
 
   function show_lists() { 
 
