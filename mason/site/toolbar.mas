@@ -108,7 +108,7 @@
 	     menu => [
 		      {
 		       name => 'Cacao genome - CIRAD',
-		       link => 'http://cacao.sgn.cornell.edu/bin/gb2/gbrowse/cacao1/',
+		       link => 'http://gbrowse-cacao.sgn.cornell.edu/gb2/gbrowse/cacao1/',
 		       desc => 'CIRAD Cocoa Assembly',
 		      },
 		      {
